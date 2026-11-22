@@ -1,0 +1,355 @@
+2026-11-22T13:22:41.7791715Z إصدار المُشغِّل الحالي: '2.338.2'
+2026-11-22T13:22:41.7816448Z ##[group]Runner Image Provisioner
+2026-11-22T13:22:41.7817295Z وكيل الحوسبة المستضافة
+2026-11-22T13:22:41.7817816Z الإصدار: 20261111.635
+2026-11-22T13:22:41.7818378Z رقم الالتزام: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+تاريخ الإنشاء: 2026-11-22T13:22:41.7819047Z  تاريخ الإنشاء: 2026-11-11T01:49:01Z
+2026-11-22T13:22:41.7819794Z معرف العامل: {494428cd-0d37-400c-8913-85ea159427c4}
+2026-11-22T13:22:41.7821522Z المنطقة: سنترالوس
+2026-11-22T13:22:41.7822220Z السحابة: Azure
+2026-11-22T13:22:41.7822851Z ##[endgroup]
+2026-11-22T13:22:41.7824968Z ##[group]نظام التشغيل
+2026-11-22T13:22:41.7825756Z أوبونتو
+2026-11-22T13:22:41.7826404Z 26.04.1
+2026-11-22T13:22:41.7827157Z LTS
+2026-11-22T13:22:41.7827778Z ##[مجموعة النهاية]
+2026-11-22T13:22:41.7828645Z ##[group]Runner Image
+2026-11-22T13:22:41.7829623Z الصورة: أوبونتو-26.04
+2026-11-22T13:22:41.7830359Z الإصدار: 20261116.202.1
+2026-11-22T13:22:41.7831967Z البرامج المضمنة: https://github.com/actions/runner-images/blob/ubuntu26/20261116.202/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-22T13:22:41.7833609Z إصدار الصورة: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.202
+2026-11-22T13:22:41.7834426Z ##[endgroup]
+2026-11-22T13:22:41.7836112Z ##[group]GITHUB_TOKEN Permissions
+2026-11-22T13:22:41.7838210Z المحتويات: قراءة
+2026-11-22T13:22:41.7838710Z بيانات التعريف: قراءة
+2026-11-22T13:22:41.7839489Z الحزم: قراءة
+2026-11-22T13:22:41.7840042Z ##[endgroup]
+2026-11-22T13:22:41.7842028Z مصدر سري: الإجراءات
+2026-11-22T13:22:41.7842864Z وضع التخزين المؤقت: كتابة
+2026-11-22T13:22:41.7843496Z إعداد دليل سير العمل
+2026-11-22T13:22:41.8135786Z إعداد جميع الإجراءات المطلوبة
+2026-11-22T13:22:41.8183667Z الحصول على معلومات تنزيل الإجراء
+2026-11-22T13:22:42.0544199Z تنزيل مستودع الإجراءات 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-22T13:22:42.1235352Z تنزيل مستودع الإجراءات 'actions/setup-java@v4' (SHA:cf277c60eb25467037889841efdb72551f06f6c3)
+2026-11-22T13:22:43.4009617Z تنزيل مستودع الإجراءات 'gradle/actions@v4' (SHA:ed408507eac070d1f99cc633dbcf757c94c7933a)
+2026-11-22T13:22:44.5963315Z تنزيل مستودع الإجراءات 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-22T13:22:44.8313023Z اسم المهمة الكامل: بناء ملف APK للتصحيح
+2026-11-22T13:22:44.8998475Z ##[group]Run actions/checkout@v4
+2026-11-22T13:22:44.8999395Z مع:
+2026-11-22T13:22:44.8999665Z repository: massddffppll121212-ai/abo2015
+2026-11-22T13:22:44.9002169Z الرمز المميز: ***
+2026-11-22T13:22:44.9002406Z ssh-strict: true
+2026-11-22T13:22:44.9002638Z ssh-user: git
+2026-11-22T13:22:44.9002904Z persist-credentials: true
+2026-11-22T13:22:44.9003160Z clean: true
+2026-11-22T13:22:44.9003406Z sparse-checkout-cone-mode: true
+2026-11-22T13:22:44.9003676Z عمق الجلب: 1
+2026-11-22T13:22:44.9003893Z fetch-tags: false
+2026-11-22T13:22:44.9004132Z إظهار التقدم: صحيح
+2026-11-22T13:22:44.9004371Z lfs: false
+2026-11-22T13:22:44.9004583Z الوحدات الفرعية: false
+2026-11-22T13:22:44.9004811Z set-safe-directory: true
+2026-11-22T13:22:44.9005089Z allow-unsafe-pr-checkout: false
+2026-11-22T13:22:44.9005566Z ##[مجموعة النهاية]
+2026-11-22T13:22:45.0953906Z مزامنة المستودع: massddffppll121212-ai/abo2015
+2026-11-22T13:22:45.0955593Z ##[group]الحصول على معلومات إصدار Git
+2026-11-22T13:22:45.0956198Z دليل العمل هو '/home/runner/work/abo2015/abo2015'
+2026-11-22T13:22:45.0957121Z [command]/usr/bin/git version
+2026-11-22T13:22:45.0969406Z إصدار git 2.56.1
+2026-11-22T13:22:45.0988052Z ##[endgroup]
+2026-11-22T13:22:45.1002384Z تم تجاوز قيمة HOME='/home/runner/work/_temp/1e23203f-6012-487a-9397-79d95ab3701f' مؤقتًا قبل إجراء تغييرات على إعدادات Git العامة
+2026-11-22T13:22:45.1003626Z إضافة دليل المستودع إلى إعدادات Git العامة المؤقتة كدليل آمن
+2026-11-22T13:22:45.1006403Z [الأمر]/usr/bin/git config --global --add safe.directory /home/runner/work/abo2015/abo2015
+2026-11-22T13:22:45.1060819Z حذف محتويات '/home/runner/work/abo2015/abo2015'
+2026-11-22T13:22:45.1067904Z ##[group] تهيئة المستودع
+2026-11-22T13:22:45.1068909Z [الأمر]/usr/bin/git init /home/runner/work/abo2015/abo2015
+2026-11-22T13:22:45.1141411Z تلميح: استخدام "master" كاسم للفرع الأولي. هذا هو اسم الفرع الافتراضي
+2026-11-22T13:22:45.1142303Z ملاحظة: سيتغير إلى "main" في Git 3.0. لتكوين اسم الفرع الأولي
+2026-11-22T13:22:45.1142897Z تلميح: لاستخدامه في جميع مستودعاتك الجديدة، مما سيؤدي إلى إخفاء هذا التحذير،
+2026-11-22T13:22:45.1143292Z تلميح: استدعاء:
+2026-11-22T13:22:45.1143524Z تلميح:
+2026-11-22T13:22:45.1143842Z تلميح: git config --global init.defaultBranch <name>
+2026-11-22T13:22:45.1144165Z تلميح:
+2026-11-22T13:22:45.1144471Z ملاحظة: الأسماء الشائعة التي يتم اختيارها بدلاً من "master" هي "main" و"trunk" و
+2026-11-22T13:22:45.1145020Z تلميح: 'development'. يمكن إعادة تسمية الفرع الذي تم إنشاؤه للتو باستخدام هذا الأمر:
+2026-11-22T13:22:45.1145390Z تلميح:
+2026-11-22T13:22:45.1145648Z تلميح: git branch -m <name>
+2026-11-22T13:22:45.1145894Z تلميح:
+2026-11-22T13:22:45.1146218Z ملاحظة: قم بتعطيل هذه الرسالة باستخدام الأمر "git config set advice.defaultBranchName false"
+2026-11-22T13:22:45.1221147Z تم تهيئة مستودع Git فارغ في /home/runner/work/abo2015/abo2015/.git/
+2026-11-22T13:22:45.1222904Z [command]/usr/bin/git remote add origin https://github.com/massddffppll121212-ai/abo2015
+2026-11-22T13:22:45.1242755Z ##[endgroup]
+2026-11-22T13:22:45.1243341Z ##[group] تعطيل جمع البيانات المهملة التلقائي
+2026-11-22T13:22:45.1247069Z [الأمر]/usr/bin/git config --local gc.auto 0
+2026-11-22T13:22:45.1277940Z ##[endgroup]
+2026-11-22T13:22:45.1278479Z ##[group]إعداد المصادقة
+2026-11-22T13:22:45.1284272Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-22T13:22:45.1315007Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-22T13:22:45.1697935Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-22T13:22:45.1720686Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-22T13:22:45.1957110Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-22T13:22:45.1987238Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-22T13:22:45.2223250Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-22T13:22:45.2406892Z ##[مجموعة النهاية]
+2026-11-22T13:22:45.2407392Z ##[group] جلب المستودع
+2026-11-22T13:22:45.2414370Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +0d13828775b112df900d9ccbbe0a95afe32b1afa:refs/remotes/origin/main
+2026-11-22T13:22:45.7004712Z من https://github.com/massddffppll121212-ai/abo2015
+2026-11-22T13:22:45.7005966Z * [مرجع جديد] 0d13828775b112df900d9ccbbe0a95afe32b1afa -> origin/main
+2026-11-22T13:22:45.7009731Z ##[مجموعة النهاية]
+2026-11-22T13:22:45.7011004Z ##[group] تحديد معلومات الدفع
+2026-11-22T13:22:45.7012129Z ##[endgroup]
+2026-11-22T13:22:45.7017764Z [command]/usr/bin/git sparse-checkout disable
+2026-11-22T13:22:45.7066190Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-22T13:22:45.7095488Z ##[group] جارٍ التحقق من المرجع
+2026-11-22T13:22:45.7100729Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-11-22T13:22:45.7220614Z تم التبديل إلى فرع جديد 'main'
+2026-11-22T13:22:45.7226181Z تم إعداد الفرع 'main' لتتبع 'origin/main'.
+2026-11-22T13:22:45.7229413Z ##[مجموعة النهاية]
+2026-11-22T13:22:45.7273278Z [command]/usr/bin/git log -1 --format=%H
+2026-11-22T13:22:45.7297678Z 0d13828775b112df900d9ccbbe0a95afe32b1afa
+2026-11-22T13:22:45.7558884Z ##[group]Run actions/setup-java@v4
+2026-11-22T13:22:45.7559169Z مع:
+2026-11-22T13:22:45.7559656Z التوزيع: التيمورين
+2026-11-22T13:22:45.7559851Z إصدار جافا: 17
+2026-11-22T13:22:45.7560032Z java-package: jdk
+2026-11-22T13:22:45.7560221Z check-latest: false
+2026-11-22T13:22:45.7560408Z server-id: github
+2026-11-22T13:22:45.7560600Z اسم مستخدم الخادم: GITHUB_ACTOR
+2026-11-22T13:22:45.7560827Z كلمة مرور الخادم: GITHUB_TOKEN
+2026-11-22T13:22:45.7561039Z overwrite-settings: true
+2026-11-22T13:22:45.7561236Z حالة المهمة: ناجحة
+2026-11-22T13:22:45.7563509Z الرمز: ***
+2026-11-22T13:22:45.7563700Z ##[مجموعة النهاية]
+2026-11-22T13:22:45.9041287Z ##[تحذير] تم إيقاف دعم setup-java الإصدار 4 ولن يتلقى أي تحديثات بعد الآن. يُرجى الترقية إلى actions/setup-java@v5.
+2026-11-22T13:22:45.9050000Z ##[group]التوزيعات المثبتة
+2026-11-22T13:22:45.9069873Z تم تحديد Java 17.0.21+9 من ذاكرة التخزين المؤقت للأدوات
+2026-11-22T13:22:45.9070277Z تعيين Java 17.0.21+9 كإصدار افتراضي
+2026-11-22T13:22:45.9077839Z (node:2210) [DEP0040] تحذير: تم إيقاف استخدام وحدة `punycode`. يُرجى استخدام بديل من بيئة المستخدم.
+2026-11-22T13:22:45.9078570Z (استخدم `node --trace-deprecation ...` لعرض مكان إنشاء التحذير)
+2026-11-22T13:22:45.9081297Z إنشاء ملف toolchains.xml لإصدار JDK 17 من temurin
+2026-11-22T13:22:45.9136804Z الكتابة إلى /home/runner/.m2/toolchains.xml
+2026-11-22T13:22:45.9137144Z
+2026-11-22T13:22:45.9137406Z إعدادات جافا:
+2026-11-22T13:22:45.9137695Z التوزيع: تيمورين
+2026-11-22T13:22:45.9137967Z الإصدار: 17.0.21+9
+2026-11-22T13:22:45.9138358Z المسار: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-11-22T13:22:45.9138728Z
+2026-11-22T13:22:45.9139171Z ##[مجموعة النهاية]
+2026-11-22T13:22:45.9154557Z إنشاء ملف settings.xml باستخدام معرّف الخادم: github
+2026-11-22T13:22:45.9181936Z الكتابة إلى /home/runner/.m2/settings.xml
+2026-11-22T13:22:45.9500590Z ##[group]Run gradle/actions/setup-gradle@v4
+2026-11-22T13:22:45.9500873Z مع:
+2026-11-22T13:22:45.9501091Z gradle-version: 9.3.1
+2026-11-22T13:22:45.9501297Z cache-disabled: false
+2026-11-22T13:22:45.9501487Z cache-read-only: false
+2026-11-22T13:22:45.9501709Z cache-write-only: false
+2026-11-22T13:22:45.9501919Z cache-overwrite-existing: false
+2026-11-22T13:22:45.9502148Z تنظيف ذاكرة التخزين المؤقت: عند النجاح
+2026-11-22T13:22:45.9502396Z gradle-home-cache-includes: caches
+إشعارات
+
+2026-11-22T13:22:45.9502678Z إضافة ملخص المهمة: دائمًا
+2026-11-22T13:22:45.9502892Z إضافة ملخص الوظيفة كتعليق طلب شراء: أبداً
+2026-11-22T13:22:45.9503132Z مخطط التبعية: معطل
+2026-11-22T13:22:45.9503388Z dependency-graph-report-dir: dependency-graph-reports
+2026-11-22T13:22:45.9503688Z dependency-graph-continue-on-failure: true
+2026-11-22T13:22:45.9503937Z build-scan-publish: false
+2026-11-22T13:22:45.9504144Z validate-wrappers: true
+2026-11-22T13:22:45.9504402Z allow-snapshot-wrappers: false
+2026-11-22T13:22:45.9504638Z gradle-home-cache-strict-match: false
+2026-11-22T13:22:45.9504872Z workflow-job-context: null
+2026-11-22T13:22:45.9507194Z github-token: ***
+2026-11-22T13:22:45.9507399Z إنف:
+2026-11-22T13:22:45.9507666Z JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-11-22T13:22:45.9508062Z JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-11-22T13:22:45.9508374Z ##[مجموعة النهاية]
+2026-11-22T13:22:46.2848522Z تم دمج مواقع JDK الافتراضية في /home/runner/.m2/toolchains.xml
+2026-11-22T13:22:46.2850596Z تجهيز ذاكرة التخزين المؤقت للتنظيف.
+2026-11-22T13:22:46.2854889Z ##[group]استعادة حالة Gradle من ذاكرة التخزين المؤقت
+2026-11-22T13:22:46.4105910Z لم يتم العثور على ذاكرة التخزين المؤقت لمجلد المستخدم الرئيسي في Gradle. سيتم تهيئتها فارغة.
+2026-11-22T13:22:46.4106602Z ##[endgroup]
+2026-11-22T13:22:46.4151092Z ##[group]جميع ملفات Gradle Wrapper jars صالحة
+2026-11-22T13:22:46.4151621Z
+2026-11-22T13:22:46.4151905Z ##[endgroup]
+2026-11-22T13:22:46.4854205Z ##[group]Provision Gradle 9.3.1
+2026-11-22T13:22:47.3720202Z لم يتم العثور على توزيعة Gradle 9.3.1 في ذاكرة التخزين المؤقت. سيتم تنزيلها.
+2026-11-22T13:22:47.9978353Z تم تنزيل https://services.gradle.org/distributions/gradle-9.3.1-bin.zip إلى /home/runner/work/_temp/.gradle-actions/gradle-installations/downloads/gradle-9.3.1-bin.zip (الحجم 137037885)
+2026-11-22T13:22:48.0110814Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:22:49.2715073Z تم إرسال 2725375 من أصل 136943103 (2.0%)، بسرعة 2.6 ميجابايت/ثانية
+2026-11-22T13:22:49.6655630Z تم إرسال 136943103 من أصل 136943103 (100.0%)، بسرعة 93.7 ميجابايت/ثانية
+2026-11-22T13:22:49.8768406Z [command]/usr/bin/unzip -o -q /home/runner/work/_temp/.gradle-actions/gradle-installations/downloads/gradle-9.3.1-bin.zip
+2026-11-22T13:22:50.7146574Z تم استخراج Gradle 9.3.1 إلى /home/runner/work/_temp/.gradle-actions/gradle-installations/installs/gradle-9.3.1
+2026-11-22T13:22:50.7147411Z تم توفير ملف Gradle التنفيذي /home/runner/work/_temp/.gradle-actions/gradle-installations/installs/gradle-9.3.1/bin/gradle
+2026-11-22T13:22:50.7148105Z ##[endgroup]
+2026-11-22T13:22:50.7310890Z ##[group] تشغيل إذا لم يكن الملف ./gradlew موجودًا؛ ثم
+2026-11-22T13:22:50.7311241Z [36;1mif [ ! -f ./gradlew ]; then [0m
+2026-11-22T13:22:50.7311547Z [36;1m gradle wrapper --gradle-version 9.3.1 [0m
+2026-11-22T13:22:50.7311805Z [36;1mfi [0m
+2026-11-22T13:22:50.7311986Z [36;1mchmod +x ./gradlew [0m
+2026-11-22T13:22:50.7344201Z shell: /usr/bin/bash -e {0}
+2026-11-22T13:22:50.7344439Z env:
+2026-11-22T13:22:50.7344718Z JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-11-22T13:22:50.7345129Z JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-11-22T13:22:50.7345478Z GRADLE_ACTION_ID: gradle/actions/setup-gradle
+2026-11-22T13:22:50.7345729Z GRADLE_USER_HOME: /home/runner/.gradle
+2026-11-22T13:22:50.7345973Z GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+2026-11-22T13:22:50.7346235Z GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+2026-11-22T13:22:50.7346660Z DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+2026-11-22T13:22:50.7347048Z DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+2026-11-22T13:22:50.7347314Z GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+2026-11-22T13:22:50.7347552Z ##[مجموعة النهاية]
+2026-11-22T13:22:51.2692518Z
+2026-11-22T13:22:51.2693752Z مرحباً بكم في Gradle 9.3.1!
+2026-11-22T13:22:51.2694073Z
+2026-11-22T13:22:51.2694445Z فيما يلي أبرز ما جاء في هذا الإصدار:
+2026-11-22T13:22:51.2700610Z - تحسينات في إعداد تقارير الاختبار
+2026-11-22T13:22:51.2725652Z - تحسينات على الأخطاء والتحذيرات
+2026-11-22T13:22:51.2726999Z - تحسينات في عملية إنشاء المحتوى
+2026-11-22T13:22:51.2727261Z
+٢٠٢٦-١١-٢٢T١٣:٢٢:٥١.٢٧٢٧٥١٤Z لمزيد من التفاصيل، راجع https://docs.gradle.org/9.3.1/release-notes.html
+2026-11-22T13:22:51.2727880Z
+2026-11-22T13:22:51.3697135Z بدء تشغيل Gradle Daemon (ستكون عمليات البناء اللاحقة أسرع)
+2026-11-22T13:22:53.5695074Z حساب مخطط المهام لعدم توفر أي تكوين مخزن مؤقتًا للمهام: wrapper --gradle-version 9.3.1
+2026-11-22T13:23:45.5714620Z > المهمة: غلاف
+2026-11-22T13:23:45.5730603Z gradle/actions: كتابة نتائج البناء إلى /home/runner/work/_temp/.gradle-actions/build-results/__run-1795353775911.json
+2026-11-22T13:23:45.6682144Z
+2026-11-22T13:23:45.6685435Z تم البناء بنجاح في 54 ثانية
+2026-11-22T13:23:45.6686079Z مهمة واحدة قابلة للتنفيذ: تم تنفيذ مهمة واحدة
+2026-11-22T13:23:45.6686603Z تم تخزين إدخال ذاكرة التخزين المؤقت للتكوين.
+2026-11-22T13:23:45.9995275Z ##[group] تشغيل ./gradlew assembleDebug
+2026-11-22T13:23:45.9995578Z [36;1m./gradlew assembleDebug [0m
+2026-11-22T13:23:46.0026094Z shell: /usr/bin/bash -e {0}
+2026-11-22T13:23:46.0026335Z إنف:
+2026-11-22T13:23:46.0026607Z JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-11-22T13:23:46.0027040Z JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-11-22T13:23:46.0027399Z GRADLE_ACTION_ID: gradle/actions/setup-gradle
+2026-11-22T13:23:46.0027671Z GRADLE_USER_HOME: /home/runner/.gradle
+2026-11-22T13:23:46.0027928Z GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+2026-11-22T13:23:46.0028194Z GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+2026-11-22T13:23:46.0028561Z DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+2026-11-22T13:23:46.0029398Z DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+2026-11-22T13:23:46.0029674Z GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+2026-11-22T13:23:46.0029983Z ##[مجموعة النهاية]
+2026-11-22T13:23:46.0874966Z جارٍ تنزيل https://services.gradle.org/distributions/gradle-9.3.1-bin.zip
+2026-11-22T13:23:47.3310977Z .............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+2026-11-22T13:23:48.4691101Z جارٍ حساب مخطط المهام لعدم توفر أي تكوين مخزن مؤقتًا للمهام: assembleDebug
+2026-11-22T13:24:04.6732204Z > المهمة :app:preBuild محدّثة
+2026-11-22T13:24:04.6767976Z > المهمة :app:generateDebugAssets مُحدَّثة
+2026-11-22T13:24:04.6801673Z > المهمة :app:preDebugBuild محدّثة
+2026-11-22T13:24:04.6830130Z > المهمة :app:mergeDebugNativeDebugMetadata بدون مصدر
+2026-11-22T13:24:04.6919606Z
+2026-11-22T13:24:04.6930896Z > المهمة :app:processDebugGoogleServices
+2026-11-22T13:24:04.6949883Z ملف google-services.json مفقود.
+2026-11-22T13:24:04.6971575Z لا يمكن لمكون Google Services الإضافي أن يعمل بدونه.
+2026-11-22T13:24:04.7012494Z المواقع التي تم البحث فيها: /home/runner/work/abo2015/abo2015/app/src/debug/google-services.json, /home/runner/work/abo2015/abo2015/app/src/debug/google-services.json, /home/runner/work/abo2015/abo2015/app/src/google-services.json, /home/runner/work/abo2015/abo2015/app/src/debug/google-services.json, /home/runner/work/abo2015/abo2015/app/src/Debug/google-services.json, /home/runner/work/abo2015/abo2015/app/google-services.json
+2026-11-22T13:24:04.7020290Z
+2026-11-22T13:24:04.7021030Z > المهمة :app:generateDebugResources
+2026-11-22T13:24:04.7021830Z > المهمة :app:generateDebugBuildConfig
+2026-11-22T13:24:04.7022407Z > تم تخطي المهمة :app:kspDebugKotlin
+2026-11-22T13:24:04.9670700Z > المهمة :app:packageDebugResources
+2026-11-22T13:24:07.3657128Z > المهمة :app:javaPreCompileDebug
+2026-11-22T13:24:07.4680962Z > المهمة :app:desugarDebugFileDependencies
+2026-11-22T13:24:07.5700426Z > المهمة :app:checkDebugDuplicateClasses
+2026-11-22T13:24:07.8680583Z > المهمة :app:processDebugNavigationResources
+2026-11-22T13:24:08.8660691Z > المهمة :app:mergeDebugAssets
+2026-11-22T13:24:09.6659868Z > المهمة :app:parseDebugLocalResources
+2026-11-22T13:24:37.4656738Z > المهمة :app:checkDebugAarMetadata
+2026-11-22T13:24:37.5660587Z > المهمة :app:mergeExtDexDebug
+2026-11-22T13:24:38.0690552Z > المهمة :app:compressDebugAssets
+2026-11-22T13:24:38.0740346Z > المهمة :app:mapDebugSourceSetPaths
+2026-11-22T13:24:38.3670382Z > المهمة :app:compileDebugNavigationResources
+2026-11-22T13:24:38.5671180Z > المهمة :app:generateDebugRFile
+2026-11-22T13:24:40.2701015Z > المهمة :app:mergeLibDexDebug
+2026-11-22T13:24:40.3664746Z > المهمة :app:createDebugCompatibleScreenManifests
+2026-11-22T13:24:40.3700329Z > المهمة :app:extractDeepLinksDebug
+2026-11-22T13:24:43.3680348Z > المهمة :app:processDebugMainManifest
+2026-11-22T13:24:43.5680286Z > المهمة :app:processDebugManifest
+2026-11-22T13:24:43.6700345Z > المهمة :app:processDebugManifestForPackage
+2026-11-22T13:24:43.7690865Z > المهمة :app:mergeDebugJniLibFolders
+2026-11-22T13:24:44.0680408Z > المهمة :app:mergeDebugResources
+2026-11-22T13:24:46.8670638Z > المهمة :app:mergeDebugNativeLibs
+2026-11-22T13:24:47.0676450Z
+2026-11-22T13:24:47.0698723Z > المهمة :app:stripDebugDebugSymbols
+2026-11-22T13:24:47.0730178Z تعذر حذف المكتبات التالية، وسيتم تضمينها كما هي: libandroidx.graphics.path.so. شغّل الأمر مع خيار --info لمعرفة المزيد.
+2026-11-22T13:24:47.0739814Z
+2026-11-22T13:24:47.0801105Z > فشلت المهمة :app:validateSigningDebug
+2026-11-22T13:24:47.6666371Z > المهمة :app:processDebugResources
+2026-11-22T13:25:08.5657091Z > المهمة :app:compileDebugKotlin
+2026-11-22T13:25:30.2660880Z
+2026-11-22T13:25:30.2661755Z gradle/actions: كتابة نتائج البناء إلى /home/runner/work/_temp/.gradle-actions/build-results/__run_2-1795353828479.json
+2026-11-22T13:25:30.2664119Z فشل: فشلت عملية البناء بسبب استثناء.
+2026-11-22T13:25:30.2664560Z 29 مهمة قابلة للتنفيذ: 29 مهمة تم تنفيذها
+2026-11-22T13:25:30.2664934Z تم تخزين إدخال ذاكرة التخزين المؤقت للتكوين.
+2026-11-22T13:25:30.2667474Z
+2026-11-22T13:25:30.2667944Z * ما الخطأ الذي حدث؟
+2026-11-22T13:25:30.2668711Z فشل تنفيذ المهمة ':app:validateSigningDebug'.
+2026-11-22T13:25:30.2669862Z > لم يتم العثور على ملف Keystore '/home/runner/work/abo2015/abo2015/debug.keystore' لتكوين التوقيع 'debugConfig'.
+2026-11-22T13:25:30.2670513Z
+2026-11-22T13:25:30.2670701Z * حاول:
+2026-11-22T13:25:30.2671246Z > قم بتشغيل الأمر مع خيار --stacktrace للحصول على تتبع المكدس.
+2026-11-22T13:25:30.2671938Z > قم بتشغيل الأمر مع الخيار --info أو --debug للحصول على المزيد من مخرجات السجل.
+2026-11-22T13:25:30.2672599Z > قم بتشغيل الأمر --scan للحصول على رؤى كاملة من فحص البناء (مدعوم من Develocity).
+2026-11-22T13:25:30.2673190Z > احصل على المزيد من المساعدة على https://help.gradle.org.
+2026-11-22T13:25:30.2673462Z
+2026-11-22T13:25:30.2673584Z فشل البناء في دقيقة واحدة و44 ثانية
+2026-11-22T13:25:30.4157561Z ##[error] اكتملت العملية برمز الخروج 1.
+2026-11-22T13:25:30.4396027Z عملية تنظيف ما بعد المهمة.
+2026-11-22T13:25:30.7419524Z في خطوة ما بعد الإجراء
+2026-11-22T13:25:30.7437397Z ##[group]إيقاف عمليات Gradle
+2026-11-22T13:25:30.7438455Z إيقاف خدمات Gradle لـ /home/runner/work/_temp/.gradle-actions/gradle-installations/installs/gradle-9.3.1
+2026-11-22T13:25:30.7467140Z [command]/home/runner/work/_temp/.gradle-actions/gradle-installations/installs/gradle-9.3.1/bin/gradle --stop
+2026-11-22T13:25:31.3692915Z إيقاف البرنامج (البرامج) الخفي
+2026-11-22T13:25:31.3700125Z تم إيقاف برنامج Daemon واحد
+2026-11-22T13:25:31.3886007Z ##[endgroup]
+2026-11-22T13:25:31.3886615Z لم يتم إجراء تنظيف ذاكرة التخزين المؤقت بسبب فشل عملية البناء
+2026-11-22T13:25:31.3887430Z ##[group]تخزين حالة Gradle مؤقتًا
+2026-11-22T13:25:31.4008755Z لم يتم حفظ حالة ذاكرة التخزين المؤقت للإعدادات، لعدم توفير مفتاح تشفير.
+2026-11-22T13:25:31.4335382Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:31.4411456Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:32.1778220Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:32.2052347Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:32.2135615Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:32.5326223Z تم إرسال 91208 من أصل 91208 (100.0%)، بسرعة 0.5 ميجابايت/ثانية
+2026-11-22T13:25:32.5351226Z تم إرسال 60564 من أصل 60564 (100.0%)، بسرعة 0.3 ميجابايت/ثانية
+2026-11-22T13:25:32.5453383Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:32.5843508Z تم إرسال 87468 من أصل 87468 (100.0%)، بسرعة 0.4 ميجابايت/ثانية
+2026-11-22T13:25:32.6977800Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-groovy-dsl-v1-28b9a41f693ba754e53f6f5a3dfc445c من /home/runner/.gradle/caches/*/groovy-dsl/*/ في 505 مللي ثانية
+2026-11-22T13:25:32.7231789Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-instrumented-jars-v1-da27189608cc64b8ccdc1e8234084779 من /home/runner/.gradle/caches/jars-*/*/ في 565 مللي ثانية
+2026-11-22T13:25:32.7381115Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-kotlin-dsl-v1-53fffc9181a7303b3d44a825496d206e من /home/runner/.gradle/caches/*/kotlin-dsl/accessors/*/,/home/runner/.gradle/caches/*/kotlin-dsl/scripts/*/ في 566 مللي ثانية
+2026-11-22T13:25:33.2483146Z تم إرسال 2134546 من أصل 136352274 (1.6%)، بسرعة 2.0 ميجابايت/ثانية
+2026-11-22T13:25:33.2670764Z تم إرسال 41993407 من أصل 41993407 (100.0%)، بسرعة 40.1 ميجابايت/ثانية
+2026-11-22T13:25:33.3778629Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:33.6701092Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-generated-gradle-jars-v1-cb4b032a7d08b9bf1e84e9eacaebcc29 من /home/runner/.gradle/caches/9.3.1/generated-gradle-jars/gradle-api-9.3.1.jar في 2257 مللي ثانية
+2026-11-22T13:25:34.0943475Z تم إرسال 136352274 من أصل 136352274 (100.0%)، بسرعة 70.5 ميجابايت/ثانية
+2026-11-22T13:25:34.2531349Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-wrapper-zips-v1-8c0de4c6bda6041d6e054bf825a89c98 من /home/runner/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks في 2842 مللي ثانية
+2026-11-22T13:25:34.6430549Z تم إرسال 0 من 333811765 (0.0%)، 0.0 ميجابايت/ثانية
+2026-11-22T13:25:35.1173304Z تم إرسال 333811765 من أصل 333811765 (100.0%)، بسرعة 215.5 ميجابايت/ثانية
+2026-11-22T13:25:35.2761476Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-dependencies-v1-b2ad6bace7c062079c2c63f364d4d2f3 من /home/runner/.gradle/caches/modules-*/files-*/*/*/*/* في 3127 مللي ثانية
+2026-11-22T13:25:36.2223721Z تم إرسال 57869584 من أصل 192087312 (30.1%)، بسرعة 55.2 ميجابايت/ثانية
+2026-11-22T13:25:36.4293502Z تم إرسال 192087312 من أصل 192087312 (100.0%)، بسرعة 151.6 ميجابايت/ثانية
+2026-11-22T13:25:36.5781319Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-transforms-v1-78787e602d518c4a5c14d6b7a445dcd3 من /home/runner/.gradle/caches/transforms-4/*/,/home/runner/.gradle/caches/*/transforms/*/ في 3694 مللي ثانية
+2026-11-22T13:25:37.3950932Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/abo2015/abo2015 --files-from manifest.txt --use-compress-program zstdmt
+2026-11-22T13:25:38.5396656Z تم إرسال 33694232 من أصل 33694232 (100.0%)، بسرعة 35.8 ميجابايت/ثانية
+2026-11-22T13:25:38.6715094Z تم حفظ إدخال ذاكرة التخزين المؤقت بالمفتاح gradle-home-v1|Linux-X64|build[fc601455b2151ffb856a01dd4e3bf12a]-0d13828775b112df900d9ccbbe0a95afe32b1afa من /home/runner/.gradle/caches، /home/runner/.gradle/notifications، /home/runner/.gradle/.setup-gradle في 1290 مللي ثانية
+2026-11-22T13:25:38.6716747Z ##[endgroup]
+2026-11-22T13:25:38.6721611Z إنشاء ملخص المهمة
+2026-11-22T13:25:38.6732890Z تم إكمال خطوة ما بعد الإجراء
+2026-11-22T13:25:38.6956992Z تنظيف ما بعد المهمة.
+2026-11-22T13:25:38.8139102Z (node:2844) [DEP0040] تحذير: تم إيقاف استخدام وحدة `punycode`. يُرجى استخدام بديل من بيئة المستخدم.
+2026-11-22T13:25:38.8140007Z (استخدم `node --trace-deprecation ...` لعرض مكان إنشاء التحذير)
+2026-11-22T13:25:38.8311870Z تنظيف ما بعد المهمة.
+2026-11-22T13:25:38.9251250Z [command]/usr/bin/git version
+2026-11-22T13:25:38.9294658Z إصدار git 2.56.1
+2026-11-22T13:25:38.9330413Z تم تجاوز قيمة HOME='/home/runner/work/_temp/547f1ec4-03c5-4509-b820-c6418840e7f8' مؤقتًا قبل إجراء تغييرات على إعدادات Git العامة
+2026-11-22T13:25:38.9331584Z إضافة دليل المستودع إلى إعدادات Git العامة المؤقتة كدليل آمن
+2026-11-22T13:25:38.9340134Z [الأمر]/usr/bin/git config --global --add safe.directory /home/runner/work/abo2015/abo2015
+2026-11-22T13:25:38.9392205Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-22T13:25:38.9439828Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-22T13:25:38.9748493Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-22T13:25:38.9780172Z http.https://github.com/.extraheader
+2026-11-22T13:25:38.9792697Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-22T13:25:38.9835109Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-22T13:25:39.0163752Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-22T13:25:39.0205349Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-22T13:25:39.0614089Z تنظيف العمليات غير المستخدمة
+٢٠٢٦-١١-٢٢T١٣:٢٥:٣٩.٠٩٢٥٤٣١Z ##[تحذير] تم إيقاف Node.js 20. تستهدف الإجراءات التالية Node.js 20، ولكن يتم تشغيلها قسرًا على Node.js 24: actions/checkout@v4، actions/setup-java@v4، gradle/actions/setup-gradle@v4. لمزيد من المعلومات، راجع: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
